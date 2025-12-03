@@ -1,0 +1,42 @@
+/* CSS SPECIFIC TO PROJECTS HTML*/
+
+:root {
+    --bg-primary: #1C0F2E;
+    --bg-secondary: #452f66;
+    --text-primary: #F9F6FF;
+    --colour-primary: #321C52;
+    --colour-accent: #FFD94C;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    --card-radius: 20px;
+}
+
+.projects-header {
+    grid-column: 1 / -1;
+}
+
+.projects-divider {
+    grid-column: 1 / -1;
+}
+
+.projects-card {
+    grid-column: 1 / 2;
+}
+
+.projects-card-banner {
+    grid-column: 2 / 3;
+}
+
+.projects-bottom {
+    grid-column: 1 / -1;
+    margin-bottom: 50px;
+}
+
+.project-subtext {
+    margin: 50px;
+    text-align: left;
+}
+
+.divider {
+    margin-top: 5px;
+    grid-column: 1 / -1;
+}

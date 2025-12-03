@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Website Metadata -->
+  <meta charset="UTF-8" />
+  <meta property="type" content="website" />
+  <meta propert="og:title" content="Sorcielle - Project Portfolio" />
+  <meta property="og:description" content="Personal Professional Portfolio of Lily McClellan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Professional Portfolio of Lily McClellan" />
+  <meta name="keywords"
+    content="development, developer, front-end, back-end, full-stack, portfolio, Lily McClellan, Sorcielle" />
+
+  <!-- Website Componenets -->
+  <title>Sorcielle - Magic Through Code</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+  <link rel="shortcut icon" href="/icons/favicon.ico" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/projects.css" />
+</head>
+
+<body>
+  <!-- Star Theme from Rohan-Gautam on GitHub -->
+  <div class="starfield"></div>
+
+  <main class="bento-grid">
+
+    <div class="card card-purple header-logo">
+      <h2><span class="yellow">&lt;</span> / <span class="yellow">&gt;</span> Lily McClellan - Full Stack Engineer</h2>
+    </div>
+
+    <div class="card card-purple header-nav">
+      <div id="">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Portfolio</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+
+    <div class="card projects-header">
+      <hr>
+      <h2>Overview</h2>
+      <hr>
+      <p>
+        From <i>REST API development</i> to programming <i>purpose built desktop applications</i>,
+        I have a baseline experience in many different areas of Software Engineering.<br><br>
+        I am a current student of <b>Neumont University</b> studying for my <b>Bachelor's of Science in Software
+          Engeineering</b>.
+      </p>
+    </div>
+
+    <div class="card card-purple projects-divider">
+      <h2>Web Applications</h2>
+    </div>
+
+    <div class="card hover-card project-card">
+      <div>
+        <hr>
+        <h3><u><a href="https://github.com/JTPRod/Evil-Communicator-inator">Evil Communicator-Inator</a></u></h3>
+        <hr>
+        <p>Simple WebRTC client-server pair built using Spring, MongoDB, and Node.</p>
+      </div>
+      <div>
+        <p><strong>Tech:</strong> Java, Spring Boot, Spring Data, Mongo, bcrypt, JS</p>
+        <p class="project-subtext">I chose Java/Spring for this project for its ease of developement and Object Oriented
+          programming, allowing for easy MVC/POJO designs. This would help the modularity of each component and make it
+          seamless
+          to build up new features, additions, or refactoring of the control flow.<br><br>
+          MongoDB was my database of choice because of its more loose structuring and natural JSON formatting, meaning
+          that I could easily translate POJOs to and from Mongo without the need for additional code or overheads.</p>
+      </div>
+    </div>
+
+    <div class="card card-purple project-card-banner">
+      <div>
+        <h3>Project Status</h3>
+        <p>In Development</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card hover-card project-card">
+      <div>
+        <hr>
+        <h3><u><a href="https://github.com/duckian-code/AkashicAPI">Akashic API</a></u></h3>
+        <hr>
+        <p>WebRTC REST API with DAO and full security support.</p>
+      </div>
+      <div>
+        <p><strong>Tech:</strong> Rust, Actix, bcrypt, PostgreSQL</p>
+        <p class="project-subtext">This project is a complete redesign of the Evil Communicator-Inator (also being
+          managed solo as opposed to a team). This project sees a departure from Java to Rust, hinging on its memory
+          safe borrow checker and Postgres' more intuitive REST implementations.<br><br>This will be paired with
+          other future projects to create my personal WebRTC communication platform: Clairvoyance.
+
+      </div>
+    </div>
+
+    <div class="card card-purple project-card-banner">
+      <div>
+        <h3>Project Status</h3>
+        <p>In Development</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+
+    <div class="card hover-card project-card">
+      <div>
+        <hr>
+        <h3><u>Clairvoyance</u></h3>
+        <hr>
+        <p>WebRTC REST front-end with modernised UI/UX</p>
+      </div>
+      <div>
+        <p><strong>Tech:</strong> React.js, Bootstrap, HTML, Electrion (TBD)</p>
+        <p class="project-subtext">This project is a the front-end counterpart to Akashic API, and will be built
+          with modern architectures such as React and Bootstrap for a more industry standard design,
+          execution, and Bootsrap.<br><br>When complete, this service will be available as a client at <a
+            href="about:blank">chat.sorcielle.dev</a>.
+      </div>
+    </div>
+
+    <div class="card card-purple project-card-banner">
+      <div>
+        <h3>Project Status</h3>
+        <p>Upcoming</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card card-purple projects-divider">
+      <h2>Scripts</h2>
+    </div>
+
+    <div class="card hover-card project-card">
+      <div>
+        <hr>
+        <h3><u><a href="https://github.com/KingxDavidX/Wikipedia-Mongo-VideoGameExtractor">Wikipedia-Mongo Game
+              Extractor</a></u></h3>
+        <hr>
+        <p>Python wikipedia dump extractor and importer</p>
+      </div>
+      <div>
+        <p><strong>Tech:</strong> Python, Mongo, Multithreading</p>
+        <p class="project-subtext">This script takes a bz2 wikipedia dump file, extracts it, filters it, and imports it
+          into a configurable mongoDB instance. <br><br>My team and I chose python for its ease of use and portability,
+          and mongo for its flexible document structure.
+      </div>
+    </div>
+
+    <div class="card card-purple project-card-banner">
+      <div>
+        <h3>Project Status</h3>
+        <p>Complete</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card hover-card project-card">
+      <div>
+        <hr>
+        <h3><u><a href="https://github.com/duckian-code/CalcRouille">CalcRouille</a></u></h3>
+        <hr>
+        <p>Full feature CLI Calculator</p>
+      </div>
+      <div>
+        <p><strong>Tech:</strong> Rust</p>
+        <p class="project-subtext">This script uses Rust for its memory safety, doing RPN interpretations of equations,
+          solving them using the Shunting Yard algorithm, and allowing for more complex mathematical operations such as
+          trigonometry. <br><br>
+      </div>
+    </div>
+
+    <div class="card card-purple project-card-banner">
+      <div>
+        <h3>Project Status</h3>
+        <p>In Progress</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card card-purple projects-divider">
+      <h2>Software Applications</h2>
+    </div>
+
+    <div class="card hover-card project-card">
+      <div>
+        <hr>
+        <h3><u>Roselight</u></h3>
+        <hr>
+        <p>LLM powered language practice app</p>
+      </div>
+      <div>
+        <p><strong>Tech:</strong> C++, GTK, Cambalache, Ollama</p>
+        <p class="project-subtext">This software is an upcoming project designed to help individuals practice a target
+          language in a safe and portable manner. <br><br>Instead of relying on a single LLM to correct and respond to
+          text
+          (Which presents problems in translation), this project will modularise all components possible to provide a
+          tunable and accurate experience.
+      </div>
+    </div>
+
+    <div class="card card-purple project-card-banner">
+      <div>
+        <h3>Project Status</h3>
+        <p>Upcoming</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card card-purple projects-bottom">
+      <h2></h2>
+    </div>
+
+
+  </main>
+
+  <!-- TODO: expand footer to include logo quick nav and contact information (like stackoverflow) -->
+
+  <footer>
+    <div id="footer-content">
+      <p id="copyright">Copyright ©2025 Lily McClellan</p>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
